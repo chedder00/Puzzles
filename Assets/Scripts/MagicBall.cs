@@ -7,9 +7,6 @@ public class MagicBall : MonoBehaviour {
     public string[] _messages;
     public Text _message;
     public Image _image;
-
-
-    private Vector3 _oldPos;
     private Color _textColor;
 
     private bool _isDisplaying, _isShaking;
@@ -17,7 +14,6 @@ public class MagicBall : MonoBehaviour {
 	void Start () {
         _message.text = "";
         _isDisplaying = false;
-        _oldPos = Input.mousePosition;
         _textColor = _message.color;
 	}
 	
