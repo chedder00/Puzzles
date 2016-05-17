@@ -75,6 +75,7 @@
     <Compile Include="Assets\Scripts\MagicBall.cs" />
     <Compile Include="Assets\Scripts\MouseFollow.cs" />
     <Compile Include="Assets\Scripts\PictureController.cs" />
+    <Compile Include="Assets\Scripts\PizzaMaker.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\SyntaxTree\UnityVS\2015\UnityVS.CSharp.targets" />
 </Project>
